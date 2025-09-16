@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class ExemploEntrada {
+    public static void main(String[] args){
+     Scanner input = new Scanner(System.in);
+     int numero, dobro;
+     
+     System.out.print("Informe um numero inteiro:");
+     numero=input.nextInt();
+     
+     dobro=numero*2;
+     System.out.println("O dobro do numero e:" + dobro);
+    }
+}
